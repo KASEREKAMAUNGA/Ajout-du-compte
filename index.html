@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'acceuil</title>
+</head>
+<style>
+    .iframe{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+    .container{
+        background: #450974;
+        display: flex;
+        padding: 10px 20px;
+        margin: auto 20%;
+        justify-content: center;
+    }
+    .container h1{
+        color: #fff;
+        font-size: 1.3em;
+        font-weight: 1.5em;
+    }
+    .from-container ul li{
+        text-decoration: none;
+        
+    }
+    .from-container ul li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    @media (max-width:400px){
+        .container{
+        background: #450974;
+        display: flex;
+        padding: 10px 20px;
+        margin: auto 100px;
+        justify-content: center;
+    }
+    .btn{
+        border: none;
+        padding: 10px; 
+
+    }
+    }
+    .header{
+        background: #450974;
+        text-align: center;
+        padding: 10px 20px;
+        color: #fff;
+        margin: auto 20%;
+    }
+</style>
+<body>
+    <div class="header">
+        <h1>Bienvenu sur notre site</h1>
+        <p>Nos vous offrons de meilleurs offres pour la création du compte</p>
+    </div>
+    <div class="iframe">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfsv9kMEj0e02jzpQIyMvYqU9Hfunh4X3KIhHzpwDt4dCPr-A/viewform?embedded=true" width="640" height="974" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+    </div>
+    <div class="container">
+        <div class="from-container">
+            <h1>Nos Services</h1>
+            <ul>
+                <li><a href="">accueil</a></li>
+                <li><a href="">services </a></li>
+                <li><a href="">Les liens utiles</a></li>
+            </ul>
+        </div>
+        <div class="from-container">
+            <h1>Nos contacts</h1>
+            <ul>
+                <li><a href="">Compte</a></li>
+                <li><a href="">Contacts</a></li>
+                <li><a href="">Localisation</a></li>
+                <input type="text" class="input">
+                <button class="btn">Send</button>
+            </ul>
+            
+        </div>
+    </div>
+</body>
+</html>
